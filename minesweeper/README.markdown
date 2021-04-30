@@ -1,6 +1,5 @@
 # Minesweeper
-다음 링크에서 가져옴
-
+다음 링크에서 가져옴 \
 https://wsss.tistory.com/1458
 
 ## README 원본 내용
