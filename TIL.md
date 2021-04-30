@@ -1,9 +1,9 @@
 # TODAY I LEARN
 매일 배운것을 기록하는 일지
 ## 배운 개념 List
-### SCSS:Sassy CSS(멋진 CSS)
-### SASS:Syntactically Awesome Style Sheets (문법적으로 짱 멋진 스타일시트)
-### mixin:객체 지향 프로그래밍 언어에서 믹스인은 다른 클래스의 부모클래스가 되지 않으면서 다른 클래스에서 사용할 수 있는 메서드를 포함하는 클래스
+### SCSS : Sassy CSS(멋진 CSS)
+### SASS : Syntactically Awesome Style Sheets (문법적으로 짱 멋진 스타일시트)
+### mixin : 객체 지향 프로그래밍 언어에서 믹스인은 다른 클래스의 부모클래스가 되지 않으면서 다른 클래스에서 사용할 수 있는 메서드를 포함하는 클래스
 ## LOG
 ### 20210430
 지뢰찾기 예제를 찾아 분석함. 주소:https://wsss.tistory.com/1458\
