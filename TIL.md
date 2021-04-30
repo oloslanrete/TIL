@@ -1,10 +1,10 @@
-#TODAY I LEARN
+# TODAY I LEARN
 오늘 배운것
-##List
-###SCSS
-###SASS
-##LOG
-###20210430
+## List
+### SCSS
+### SASS
+## LOG
+### 20210430
 지뢰찾기 예제를 찾아 분석함. 주소:https://wsss.tistory.com/1458\
 html5면 canvas를 사용하는 방식만 생각했었는데 구조가 다름.\
 html div에 자식 div요소를 지뢰찾기 판 크기만큼 javascript로 생성하고 scss를 이용해 게임화면처럼 꾸밈.\
