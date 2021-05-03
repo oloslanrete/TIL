@@ -25,6 +25,7 @@ scss, sass는 변수를 사용할 수 있어서 유지관리에 장점이 있다
 3.3.html외의 모든 DOM 요소(HTML, XML, SVG)에 대해 사용할 수 있다. \
 캡처링과 버블링은 다음에 공부 \
 \
-이벤트 리스너의 콜백함수의 사용법 node.addEventListener("click", 함수명). **함수명 대신 함수()를 쓰면 함수가 실행돼버리고 리턴값이 콜백함수로 등록되는것 같다.** 
-콜백 함수에 인자를 넘겨줘야 할 경우 node.addEventListener("click", function(e){ 함수(arg1, arg2, ...) }) 익명함수로 처리. 
-콜백함수는 다음에 제대로 공부해야함. 
+이벤트 리스너의 콜백함수의 사용법 node.addEventListener("click", 함수명). \
+**함수명 대신 함수()를 쓰면 함수가 실행돼버리고 리턴값이 콜백함수로 등록되는것 같다.** \
+콜백 함수에 인자를 넘겨줘야 할 경우 node.addEventListener("click", function(e){ 함수(arg1, arg2, ...) }) 익명함수로 처리. \
+콜백함수는 다음에 제대로 공부해야함. \
