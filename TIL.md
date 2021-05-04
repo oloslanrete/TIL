@@ -45,3 +45,5 @@ scss반복문 사용 \
 cell값에 따라 cell_1~cell_8까지 클래스를 나누는데 scss반복문을 사용하여 글자색을 변경. 편의상 hsv컬러에서 360도 회전을 8로 나눈 45씩 회전 \
 \
 border-color값을 따로 지정하지 않으면 color값을 따라간다. \
+
+html요소를 중앙정렬 하려면 margin:auto 사용 display:block인 상태여야하는듯.
