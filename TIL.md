@@ -47,3 +47,34 @@ cell값에 따라 cell_1~cell_8까지 클래스를 나누는데 scss반복문을
 border-color값을 따로 지정하지 않으면 color값을 따라간다. \
 
 html요소를 중앙정렬 하려면 margin:auto 사용 display:block인 상태여야하는듯.
+
+### 20210506
+지뢰찾기를 제작하며 이해가 안됐던 부분 보충 정리 \
+
+html요소.innertext 변경과 alert이 붙어있을 경우 순서에 상관없이 alert이 먼저 실행되는 문제에 관하여 \
+해당 작업들은 web api를 통해서 이뤄지고 비동기 방식으로 처리. html.innerText가 코드상 먼저 오더라도 webAPI를 호출한 뒤 응답을 기다리지 않고 다음 코드 진행. \
+브라우저에서 alert을 호출 받으면 다른 작업들 중지. html안의 요소를 바꾸는 작업중에 중지된 것으로 예상됨. \
+결론. alert은 다른 작업을 중단해야할 정도로 긴급한 상황 아니면 프로그램에 쓰지 말자.
+
+콜백에 인자 전달하는 방법에 대하여 \
+addEventListener("click", callback(a)) <-이런 식으로 썼을 때 클릭 이벤트에 대해 callback함수가 등록되는것이 아닌 callback(a)를 실행한 **리턴값**이 콜백함수로 등록됨. \
+javascript의 콜백 함수는 다음과 같음. \
+function asd(arg, callback) { \
+    console.log(arg); \
+    callback(); \
+} \
+function callbackfunc(){ \
+    console.log('callback'); \
+} \
+asd('hello world!', callbackfunc); \
+이벤트 등록함수에서 콜백에 인자를 직접 전달하고 싶었는데 달리 방법이 없음. 익명함수로 콜백 함수를 다시 호출하거나 전역변수를 사용. \
+
+javascript에서의 this \
+https://www.w3schools.com/js/js_this.asp \
+메소드의 경우 오너 객체 \
+단독으로 쓰일 경우 글로벌 객체 (브라우저:window, nodejs:global) \
+함수의 경우 글로벌 객체 \
+strict mode의 함수의 경우 undefined \
+이벤트의 경우 이벤트가 발생한 element \
+call, apply메스드로 this 지정 가능 \
+메소드와 함수의 차이: 전역에서 정의되면 함수. 객체 내에서 정의되면 메소드.
