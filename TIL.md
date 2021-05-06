@@ -54,7 +54,7 @@ html요소를 중앙정렬 하려면 margin:auto 사용 display:block인 상태�
 html요소.innertext 변경과 alert이 붙어있을 경우 순서에 상관없이 alert이 먼저 실행되는 문제에 관하여 \
 해당 작업들은 web api를 통해서 이뤄지고 비동기 방식으로 처리. html.innerText가 코드상 먼저 오더라도 webAPI를 호출한 뒤 응답을 기다리지 않고 다음 코드 진행. \
 브라우저에서 alert을 호출 받으면 다른 작업들 중지. html안의 요소를 바꾸는 작업중에 중지된 것으로 예상됨. \
-결론. alert은 다른 작업을 중단해야할 정도로 긴급한 상황 아니면 프로그램에 쓰지 말자.
+**결론. alert은 다른 작업을 중단해야할 정도로 긴급한 상황 아니면 프로그램에 쓰지 말자.**
 
 콜백에 인자 전달하는 방법에 대하여 \
 addEventListener("click", callback(a)) <-이런 식으로 썼을 때 클릭 이벤트에 대해 callback함수가 등록되는것이 아닌 callback(a)를 실행한 **리턴값**이 콜백함수로 등록됨. \
