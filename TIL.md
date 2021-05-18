@@ -6,7 +6,7 @@
 ### SASS : Syntactically Awesome Style Sheets (문법적으로 짱 멋진 스타일시트)
 ### mixin : 객체 지향 프로그래밍 언어에서 믹스인은 다른 클래스의 부모클래스가 되지 않으면서 다른 클래스에서 사용할 수 있는 메서드를 포함하는 클래스
 ### Knuth Shuffle 알고리즘 : Fisher-Yates shuffle 알고리즘에서 한단계 발전. 피셔 예이츠는 임시 리스트에 하나씩 랜덤으로 뽑아가며 섞었으나 크누쓰 알고리즘은 섞으려는 리스트 내에서 치환해가면서 섞음. 남은 element를 셀 필요가 없고 임시리스트가 필요없다는 장점이 있음.
-### Javascript DOM animation : [](./20210518.md)
+### Javascript DOM animation : [20210518](./20210518.md)
 ## 일지
 ### 20210430
 지뢰찾기 예제를 찾아 분석함. 주소:https://wsss.tistory.com/1458\
